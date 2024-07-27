@@ -1,0 +1,73 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc; /* Бежевый цвет фона */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стили для заголовка */
+header {
+    background-color: #d2b48c; /* Светло-бежевый цвет */
+    color: #8b4513;
+}
+
+/* Стили для основного контента */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #8b4513; /* Темно-коричневый цвет */
+}
+
+/* Стили для описания */
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Стили для карусели */
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+/* Стили для контактов */
+.social-icon {
+    margin: 0 10px;
+    font-size: 1.5em;
+    color: #8b4513; /* Темно-коричневый цвет */
+}
+
+.social-icon:hover {
+    color: #d2b48c; /* Светло-бежевый цвет */
+}
+
+/* Стили для футера */
+footer {
+    background-color: #d2b48c; /* Светло-бежевый цвет */
+    color: #8b4513;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Медиазапросы для мобильных устройств */
+@media (max-width: 768px) {
+    .about p {
+        font-size: 1em;
+    }
+
+    .carousel-item img {
+        max-height: 300px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+}
